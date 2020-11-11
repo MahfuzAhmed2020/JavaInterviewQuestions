@@ -1,0 +1,276 @@
+1. What is java?
+Answer: Java is an object-oriented programming language. It is
+platform in-depended, and open source programming language. Java is case
+sensitive. In addition, java is secured, high performed, multithreaded
+programing language. In 1995, Java created James Gosling for Sun Micro
+systems, a company now owned by Oracle.
+
+2. What is JDK, JRE, JavaC, JVM, IDE ?
+ Answer: JDK: JDK means Java Development Kit, it is a software
+development environment used for developing Java applications and applets.
+JRE: JRE means Java Runtime Environment, which helps to run projects.
+Javac: Javac means Java compiler, which compiles Java Codes.
+JVM: JVM means Java Virtual Machine, which helps to execute class files
+in order to get results of the program.
+IDE: IDE means Integrated Development Environment (i.e. Netbeans /
+Eclipse / Jdeveloper), which helps to build a program.
+
+3. How can I create a class using notepad or Brackets and compile it,
+then run my it?
+Answer: Create Java Class in Notepad: First of all, open your notepad
+or any text editor. Then write the following lines of code in you notepad
+starting from public class. Save the file in your desktop. File name will be
+exactly same as Class name. Here class name is My and the file extension has
+to be java. So your full file name should be My.java
+
+
+public class My{
+ public static void main(){ System.out.println("Hello World"); }}
+
+public class My{public static void main(){ System.out.println("Hello World");}} 
+ 
+ Compile The My Class: To compile My.java class, you need to
+open cmd for Windows user and terminal for Mac user. Then navigate to
+Desktop directory and write the command. javac My.java and press on
+enter. Then you will see the command will compile the My.java (this file is
+called source code) class and created a new compiled file called My.class
+(this file is called bytecode).
+Run the My Class: To run it, you just need to write the command and
+press on enter: You will be able to see Hello World in your CMD or terminal
+which is the output of your program.
+
+4. What is Project in Java?
+ Answer: A project is a group of source files and the settings with
+which you build, run and debug those source files. 
+
+5. What is Package in Java?
+Answer: Package is a collection of related classes and interfaces. 
+
+6. What is a class?
+Answer: A class can be defined as a collection of objects. It is the
+blueprint or template that describes the state and behavior of an object.
+
+7. What is a variable?
+Answer: Variable is the name of the memory location.  
+              Variables are containers for storing data values.   
+
+8. What is a method?
+ Answer: Method is a collection of statements which grouped together
+to perform an operation. A method defines the behavior of the objects that are
+created from the class.    
+
+9. What is the data type?
+Answer: Data type specifies the size and type of values that can be
+stored in an identifier (variable).
+There are mainly two types of data in java:
+a. Primitive data.
+b. Reference data/ Non - primitive.
+a. Primitive data: Primitive data is a set of data having predefined
+characterize. Java developers build eight different data types that mostly we
+used.
+byte - 1 byte Stores whole numbers from -128 to 127
+short - 2 bytes -32,768 to 32767
+int - 4 bytes -2,147,483,648 to 2,147,483,647
+long - 8 bytes -9,223,372,036,854,775,808 to 9,223,372
+ float - 4 bytes Stores fractional numbers from -3.4e-038 to 3.4 038.
+Sufficient for storing 6 to 7 decimal digits.
+ double - 8 bytes 1.7e-038 to 1.7e 038. Enough for 15 decimal digits.
+ boolean - one byte store true or false values,
+ char - 2 bytes stores a single character/letter.
+ Note: When we declare the type for primitive data, the type name always
+starts with a small letter. We do not need to memorize all the above numbers
+for each of the data type, we have here just to understand the different of
+each data type from other one.
+ b. Referenced Data: Any built-in class or interface that system
+created or we created to declare a variable other than primitive eight types of
+data, that are considered as a referenced data type like String, Integer is a
+built-in class in java. (Starts with a capital letter). Example:
+public class A{ //Here A is referenced data type
+ String name="OSA"; //Here String is build in referenced data type } }   
+
+10. What is an object in java
+ Answer: Object is an instance of a class. It is a piece of code that
+represents the real-life entity. It has its own state, behavior, and identity. It
+contains real values instead of variables. Without the class, the object does not exist.  
+
+11. Some advantage of using Java?
+ Answer: Java is one of the widely usable programming language.
+Some of the advantage of Java are:
+i. Object-Oriented
+ii. Platform Independent
+iii. Robust (Well error handling or exception handling ability)
+iv. Secure
+v. Support both web and desktop application
+vi. Multi-threaded    
+
+12. Why java is platform-independent language?
+Answer: Platform independence means that we can write and compile
+Java code in one platform (eg Windows) and can execute the class in any
+other supported platform such as Linux, Solaris etc because of JVM which
+actually helps to do that...    
+
+13. What is the base class of all classes?
+ Answer: Object class is the base class of java.   
+
+14. What is the local and global variable?
+ Answer: Local variable: Local variables are declared in methods,
+constructors, or blocks. In the below example, any is a local variable.
+Global variable: The global variable declared outside the
+method inside the class. The global variable also is known as the Instance
+variable. In the bellow example, my is a global variable.
+ Class variable: Class variables is also known as static variables. 
+When we declare variable with the static keyword in a class, but
+outside a method, constructor or a block. Then that variable is called class
+variable/ Class Level Variable. Int he bellow example, data is a class
+variable.
+ Constant variable: Constant variable is a variable in java
+that is declared as static and final. Then only one copy of the variable exists
+for all the instances of the class and the value can not be changed. In the
+bellow example: CITY_TAX is a constant variable.
+
+15. What are the four fundamental concepts of java?
+Answer: Four fundamental or core concepts of OOP (Object 
+Oriented Program) in Java are:
+i. Abstraction
+ii. Inheritance
+iii. Encapsulation
+iv. Polymorphism    
+
+16. Why Java is OOP language?
+ Answer: Object-Oriented Programming refers to a type of
+programming in which programmers define the data type of a data structure
+and the type of operations that can be applied to the data structure.
+In Java, we can create our own object, and when we use the object, it behave
+exactly same way without changing anything from the class. In addition, Java
+support Abstraction, Inheritance, Encapsulation, and Polymorphism.
+Therefore Java is object orientated programming language.    
+
+17. Why Java is not a pure object-oriented programming language?
+ Answer: Java uses primitive data types and cannot inherit more than
+one class at a time.    
+
+18. What is Abstraction?
+Answer: Abstraction is the process of hiding the implementation
+details and showing only the functionality to the user.
+For example, the TV remote is an object. Users are provided with the only
+interface which is nothing but keys. Users only know which key to press for
+what function. Users will not know what happens inside when we press the key.
+There are two ways to achieve abstraction in java:
+i. Abstract class (0 to 100%)
+ii. Interface (Achieve 100% )    
+
+19. What is Inheritance in Java?
+Answer: Inheritance in Java is a mechanism in which one object
+acquires all the properties and behaviors of a parent object. It is an important
+part of OOPs (Object Oriented programming system). Inheritance represents
+the IS-A relationship which is also known as a parent-child relationship.
+Simply we can say, when we get all the variables and methods from
+parents class to child class by creating a parent-child relationship, then it is
+called inheritance.
+
+
+20. What is Encapsulation?
+Answer: Encapsulation is a process of wrapping the variables and
+methods together into a single unit. It is also hiding the data in order to make
+it safe from any modification. That hidden data can be restricted to the
+members of that class.
+Levels are Public, Protected, Private, Internal, and Protected Internal.
+In short,
+Encapsulation is basically denying the access to the internal implementation
+or knowledge about internals to the external world, while abstraction is
+giving a generalized view of any implementation that helps the external
+world to interact with it.     
+
+21. What is Polymorphism?
+Answer: We can simply say poly means many and morph means forms,
+together polymorphism means many forms. When we create object of a
+child class by using the reference of parent class, then we can called
+Polymorphism.
+There are two kinds of Polymorphism.
+i. Compile-time polymorphism. (Method overloading is compiletime polymorphism)
+ii. Runtime polymorphism. (Method overriding is run time polymorphism).   
+
+22.What is Method Overloading?
+ Answer: When one class has two or more methods having the same
+name but the number of parameters size, sequences, or type is different from
+each other method then it is called method overloading. These methods are
+called overloaded method.
+
+23. What is method overriding?
+Answer: If the subclass (child class) has the same method as declared in the
+parent class, it is known as method overriding in Java.
+In other words, If a subclass provides the specific implementation of the 
+method that has been declared by one of its parent class, it is known as
+method overriding.
+Rules for Java Method Overriding
+1. The method must have the same name as in the parent class
+2. The method must have the same parameter as in the parent class.
+3. There must be an IS-A relationship (inheritance).
+class Animal {
+public void move() { System.out.println("Animals can move"); }}
+class Dog extends Animal { public void move() {
+System.out.println("Dogs can walk and run"); }
+public void bark() { System.out.println("Dogs can bark"); }}
+public class TestDog {
+public static void main(String args[]) {
+Animal a = new Animal(); // Animal reference and object
+Animal b = new Dog(); // Animal reference but Dog object
+a.move(); // runs the method in Animal class
+b.move(); // runs the method in Dog class
+b.bark(); }}     
+
+24. What is the interface?
+Answer: An interface is a collection of abstract methods (only
+abstract/unimplemented methods). Before using any abstract method, it need
+to implements in a class, and only then the method can be used.         
+
+25. What are runtime exceptions?
+Answer: Runtime exceptions are those exceptions that are not warned by
+the compiler but it is thrown at runtime.
+Ex: StackOverflowException, MemoryoutException,
+ArithmaticException.     
+
+26. What are the difference between Declaration and Definition in Java?
+Answer:
+Declaration: If you just declare a class or method or variable without
+mentioning anything about what that class or method or variable looks like
+then it is called a declaration in Java.
+Definition: If you define how a class or method or variable is implemented
+then it is called definition in Java.
+Example: When we create an interface or abstract class, we simply declare a
+method but not define it.    
+
+27. What is Constructor?
+Answer: A constructor is a special type of method that is used to initialize
+the object. A constructor is a block of code that executes at the time of object
+creation and it constructs an object. To construct an object means let’s say
+you want to change the value of a reference then you can use a constructor.
+Rules for constructor are:
+a) The constructor name should be the same as the class name.
+b) A constructor must have no return type not even void.
+c) It is called automatically at the time of object creation.
+d) Default constructor (no parameter), Parametrized constructor.
+d) It can be overloaded, but cannot be overridden.
+   
+28. Difference between encapsulation and private variables?
+Answer: Encapsulation is a term that is found in the Object-Oriented
+paradigm and refers to keeping the data in private fields and modify it only
+through methods.
+Thus encapsulation may be seen as a way of achieving data hiding in objectoriented systems.   
+
+29. What is the difference between = and == sign?
+Answer:
+= will help to assign value in a variable.
+== will help to compare two objects.   
+
+30. What is the % operator?
+Answer: It is referred to as the remainder operator. It returns the
+remainder of dividing the first.
+
+
+
+
+
+
+
+
